@@ -30,12 +30,14 @@ This project analyzes the GSE37250 microarray dataset to identify differentially
 
 ## Repository Structure
 
+```
 TB-Host-Transcriptomics/
 ├── TB_Microarray_Analysis.ipynb
 ├── DE_results.csv
 ├── volcano_plot.png
 ├── heatmap.png
 └── README.md
+```
 
 ## Results
 
