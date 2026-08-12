@@ -106,24 +106,25 @@ The exact input gene lists are provided in the repository (`upregulated_genes.cs
 
 ---
 ## 6. Repository Structure
+
+```text
 TB-Host-Transcriptomics/
-├── README.md
+├── README.md                         
 │
 ├── DATA & METADATA
-│   ├── expression_log2_filtered.csv
-│   ├── metadata.csv
-│   ├── probe_annotation.csv
-│   └── GPL10558.soft.gz
+│   ├── metadata.csv                  
+│   ├── probe_annotation.csv           
+│   └── GPL10558.soft.gz            
 │
 ├── RESULTS
-│   ├── DE_results_limma_region.csv
-│   ├── upregulated_genes.csv
-│   ├── downregulated_genes.csv
-│   ├── volcano_plot.png
-│   └── heatmap.png
+│   ├── DE_results_limma_region.csv   
+│   ├── upregulated_genes.csv         
+│   ├── downregulated_genes.csv        
+│   ├── volcano_plot.png              
+│   └── heatmap.png                    
 │
 └── CODE
-    └── limma_analysis.R
+    └── limma_analysis.R             
 ```                
 ## 7. How to Reproduce This Analysis
 Prerequisites: R, RStudio, and the following packages:
