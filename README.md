@@ -56,7 +56,7 @@ This analysis used the **processed expression VALUE measurements** provided by G
 | **Upregulated DE Probes** | 5,656 |
 | **Downregulated DE Probes** | 6,393 |
 
-### 4.2 Top Differentially Expressed Features
+### 4.2 Top Differentially Expressed Probes
 
 | Upregulated in Active TB (Top 5) | Downregulated in Active TB (Top 5) |
 | :--- | :--- |
@@ -70,7 +70,7 @@ This analysis used the **processed expression VALUE measurements** provided by G
 
 ### 4.3 Biological Interpretation
 
-**Active TB is associated with a hyper-inflammatory innate immune transcriptional profile alongside reduced expression of adaptive immunity genes.**
+**Active TB is associated with increased expression of innate immune and inflammatory programs alongside reduced expression of adaptive immune-associated genes.**
 
 - **Enriched biological processes and immune programs associated with increased expression:** Interferon-γ-associated responses, neutrophil degranulation, Fc-gamma receptor-mediated phagocytosis and complement-related functions.
 - **Enriched biological processes and immune programs associated with decreased expression:** B-cell receptor signaling, T-cell differentiation, and B-cell-associated transcriptional programs involving regulators such as **PAX5** and **TCF3/E2A**.
