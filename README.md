@@ -129,18 +129,27 @@ TB-Host-Transcriptomics/
 Prerequisites: R, RStudio, and the following packages:
 
 limma
+
 GEOquery
+
 ggplot2
+
 pheatmap
+
 tidyr
+
 dplyr
 
 Steps:
 
 Load expression_log2_filtered.csv and metadata.csv.
+
 Build the design matrix: model.matrix(~ 0 + disease + region, data = meta).
+
 Fit the linear model using lmFit(), apply the contrast ActiveTB - LatentTB, and run eBayes().
+
 Extract results with topTable() and correct for multiple testing (Benjamini-Hochberg).
+
 Generate volcano and heatmap plots using the code provided in limma_analysis.R.
 
 ## 8. Limitations
