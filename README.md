@@ -113,8 +113,7 @@ TB-Host-Transcriptomics/
 │
 ├── DATA & METADATA
 │   ├── metadata.csv                  
-│   ├── probe_annotation.csv           
-│   └── GPL10558.soft.gz            
+│   ├── probe_annotation.csv                      
 │
 ├── RESULTS
 │   ├── DE_results_limma_region.csv   
